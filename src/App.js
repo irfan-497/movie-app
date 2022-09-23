@@ -8,11 +8,12 @@ import {
 import MovieStateContext from './context/Movie/MovieStateContext';
 import Movies from './components/Movies/Movies';
 import Alerts from './components/Alert/Alert';
+import Header from './components/Header/Header.js';
 
 const App = () => {
     return (
         <>
-
+        <Header />
             <MovieStateContext>
                 <BrowserRouter>
                     <Alerts />
